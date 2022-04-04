@@ -1,0 +1,113 @@
+@import "node_modules/ol/ol.css";
+
+
+
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.ol-mouse-position{
+  right: 2.5em;
+}
+
+.ol-overviewmap{
+  bottom:4em;
+}
+
+.ol-attribution {
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ol-control.layerSwitcherControl{
+  right: .5em;
+  top: 3em; 
+}
+
+.geoLocationControl.ol-control{
+  top: 0.5em;
+  left: 2.5em;
+}
+
+#info{
+  position: absolute;
+  left:2.9em;
+  top:2.4em
+}
+
+.drawControl.ol-control{
+  right:0.5em;
+  top: 10em; 
+}
+
+.ol-control.editControl{
+  right:.5em;
+  top: 17em; 
+}
+
+@media (max-width: 767px) {
+  .drawControl.ol-control {
+    /*display: none;*/
+    top:14.9em;
+  }
+
+  .ol-control.editControl{
+    /*display:none*/
+    top:25em;
+  }
+
+  .ol-control.ol-full-screen{
+    top: 12em;
+  }
+
+  .geoLocationControl.ol-control{
+    left: 3.2em;
+  }
+
+  .ol-overviewmap{
+    bottom:15%;
+  }
+  #info{
+    left:3.5em;
+    top:3.0em
+  }
+
+  .ol-mouse-position{
+    position:relative;
+    top:87%;
+    left:1em;
+    
+  }
+  }
+
+  #gcd-container{
+    top: 0.4em;
+    left:5.7em;
+
+    
+  }
+  
+  div.gcd-gl-control.ol-control{
+    top: 0.1em;
+    
+  }
+  
+  .gcd-gl-btn{
+    top: 0.5em;
+    
+  }
+
+
+
+
